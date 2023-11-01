@@ -59,14 +59,37 @@ Convert the facts in predicate form to clauses and then prove by resolution: “
 
 ### Output:
 
+![image](https://github.com/Rakesh2k23/AI_Lab_2023-24/assets/141472158/9355023d-63c2-42ab-abac-61639afb4933)
+
+
 ### Task 3:
 Consider the statement <br> 
 “This is a crime for an American to sell weapons to hostile nations. The Nano , enemy of America has some missiles and its missiles were sold it by Colonal West who is an American” <br> 
 Convert to Clause form and prove west is criminal by using Prolog.<br> 
 ### Program:
 
+    criminal(X):-
+      american(X),
+      weapon(Y),
+      hostile(Z),
+      sells(X,Y,Z).
+    weapon(Y):-
+      missile(Y).
+    hostile(Z):-
+      enemy(Z,X).
+    sells(west,Y,nano):-
+      missile(Y),
+      owns(nano,Y).
+    missile(m).
+    owns(nano,m).
+    enemy(nano,america).
+    american(west).
+ 
 
 ### Output:
+
+![image](https://github.com/Rakesh2k23/AI_Lab_2023-24/assets/141472158/3e4ccec3-6ff9-4b90-ac18-6ec6c6890620)
+
 
 ### Result:
 Thus the prolog programs were executed successfully and the answer of query was found.
