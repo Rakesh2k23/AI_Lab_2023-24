@@ -51,6 +51,9 @@ Write a Prolog program to build a computer maintenance expert system.
 
 ### Output:
 
+![image](https://github.com/Rakesh2k23/AI_Lab_2023-24/assets/141472158/773f8df7-9e4a-4456-824c-18465c37d71c)
+
+
 
 
 ### Result:
