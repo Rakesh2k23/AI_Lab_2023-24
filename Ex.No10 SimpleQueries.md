@@ -36,6 +36,9 @@ Construct the FOL representation for the following sentences <br>
 
 ### Output:
 
+![image](https://github.com/Rakesh2k23/AI_Lab_2023-24/assets/141472158/b8f33d9e-a37e-4723-ad78-cdfb85f1171f)
+
+
 ### Task 2:
 Consider the following facts and represent them in predicate form: <br>              
 1.	Steve likes easy courses. <br> 
@@ -45,6 +48,13 @@ Consider the following facts and represent them in predicate form: <br>
 Convert the facts in predicate form to clauses and then prove by resolution: “Steve likes BK301 course”<br> 
 
 ### Program:
+
+    likes(steve,X):-
+        easycourse(X).
+    hard(sciencecourse).
+    easycourse(X):-
+          course(X,dept(havefun)).
+    course(bk301,dept(havefun)).
 
 
 ### Output:
