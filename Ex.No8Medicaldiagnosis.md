@@ -58,6 +58,9 @@ Write a Prolog program to build a medical Diagnosis Expert System.
 
 ### Output:
 
+![Screenshot 2023-11-01 090614](https://github.com/Rakesh2k23/AI_Lab_2023-24/assets/141472158/0d6965df-4ca9-46bc-9801-0abc08a705dd)
+
+
 
 
 ### Result:
