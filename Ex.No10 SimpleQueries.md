@@ -1,6 +1,6 @@
 # Ex.No: 10  Logic Programming –  Simple queries from facts and rules
 ### DATE:                                                                            
-### REGISTER NUMBER : 
+### REGISTER NUMBER : 212221040137
 ### AIM: 
 To write a prolog program to find the answer of query. 
 ###  Algorithm:
@@ -21,6 +21,17 @@ Construct the FOL representation for the following sentences <br>
 5.	 Bill eats peanuts  <br> 
    Convert into clause form and Prove that John like Apple by using Prolog. <br> 
 ### Program:
+
+ likes(john,X):-
+  food(X).
+ eats(bill,X):-
+  eats(sue,X).
+ eats(Y,X):-
+  food(X).
+ eats(bill,peanuts).
+ food(apple).
+ food(chicken).
+ food(peanuts).
 
 
 ### Output:
